@@ -2,7 +2,7 @@
 
 **LCNum** is a tiny redirect service that lets you open LeetCode problems using their **problem number** instead of the slug.
 
-Instead of remembering:
+Instead of having:
 
 ```
 https://leetcode.com/problems/matrix-block-sum/
@@ -29,10 +29,9 @@ LCNum fixes that mismatch.
 
 This is useful when:
 
-* You remember *“problem 1314”* but not the title
-* You’re discussing problems verbally or in notes
-* You want fast, copy-pasteable links
 * You’re building tooling, scripts, or extensions around LeetCode
+* You want to use it with [Search Bangs]("https://chromewebstore.google.com/detail/custom-bang-search/oobpkmpnffeacpnfbbepbdlhbfdejhpg")
+
 
 ---
 
@@ -105,7 +104,6 @@ shows a short tutorial explaining how to use the service.
 * A LeetCode scraper
 * A mirror of LeetCode content
 * An official LeetCode API
-* A replacement for LeetCode
 
 All content ultimately lives on leetcode.com.
 
@@ -129,16 +127,6 @@ No writes happen during user requests.
 * **Cloudflare Workers KV**
 * Plain JavaScript (no framework)
 * DNS + HTTPS via Cloudflare
-
----
-
-## Status
-
-* Core redirect logic: ✅ complete
-* KV populated: ✅
-* Custom domain: ✅
-* Root tutorial page: ✅
-* Daily / metadata endpoints: ⏳ planned (intentionally deferred)
 
 ---
 
