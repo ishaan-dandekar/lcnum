@@ -1,4 +1,5 @@
-# [LCNum]("https://lcnum.ishdn.me")
+# [LCNum](https://lcnum.ishdn.me/)
+
 
 **LCNum** is a tiny redirect service that lets you open LeetCode problems using their **problem number** instead of the slug.
 
