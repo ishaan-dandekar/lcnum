@@ -28,7 +28,7 @@ Humans, unfortunately, are asked to remember slugs.
 
 LCNum fixes that mismatch.
 
-A similar idea previously existed as [**LCID**]("https://github.com/bunnyxt/lcid/"), which provided access to LeetCode problems via numeric IDs. [LCID.cc](https://lcid.cc) relied on live crawling, backend services, and frequent updates, which made it fragile as LeetCode and hosting constraints evolved. As a result, it is no longer operational as a public service.
+A similar idea previously existed as [LCID]("https://github.com/bunnyxt/lcid/"), which provided access to LeetCode problems via numeric IDs. [LCID.cc](https://lcid.cc) relied on live crawling, backend services, and frequent updates, which made it fragile as LeetCode and hosting constraints evolved. As a result, it is no longer operational as a public service.
 
 LCNum takes the same core idea but approaches it differently: a simpler, read-only, edge-deployed design focused on long-term stability.
 
