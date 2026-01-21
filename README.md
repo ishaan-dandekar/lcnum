@@ -28,12 +28,16 @@ Humans, unfortunately, are asked to remember slugs.
 
 LCNum fixes that mismatch.
 
+A similar idea previously existed as **LCID**, which provided access to LeetCode problems via numeric IDs. LCID relied on live crawling, backend services, and frequent updates, which made it fragile as LeetCode and hosting constraints evolved. As a result, it is no longer operational as a public service.
+
+LCNum takes the same core idea but approaches it differently: a simpler, read-only, edge-deployed design focused on long-term stability.
+
+```
 This is useful when:
 
 * You’re building tooling, scripts, or extensions around LeetCode
-* You want to use it with [Search Bangs]("https://chromewebstore.google.com/detail/custom-bang-search/oobpkmpnffeacpnfbbepbdlhbfdejhpg")
-
-
+* You want to use it with [Search Bangs](https://chromewebstore.google.com/detail/custom-bang-search/oobpkmpnffeacpnfbbepbdlhbfdejhpg)
+```
 ---
 
 ## How it works (high level)
@@ -131,9 +135,11 @@ No writes happen during user requests.
 
 ---
 
+
+
 ## Author
 
-Built by **Ishaan Dandekar**
+Built by **Ishaan Dandekar**  
 Personal infra, learning project, zero monetization.
 
 ---
